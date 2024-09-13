@@ -5,6 +5,7 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     public Transform targetObj;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,6 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(this.transform.position, TargetObj.Position, 10 * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(this.transform.position, targetObj.position, 10 * Time.deltaTime);
     }
 }
