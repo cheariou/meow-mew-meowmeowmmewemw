@@ -725,7 +725,15 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -7156804735202247109, guid: e2e82f84aa85a0642acb4099e8db1831, type: 3}
+      propertyPath: shot
+      value: 
+      objectReference: {fileID: 2739740748225633658, guid: 7019c88a6c9d4ed468ae8fc0b9cf5a8c, type: 3}
+    - target: {fileID: -7156804735202247109, guid: e2e82f84aa85a0642acb4099e8db1831, type: 3}
       propertyPath: WeaponSlot
+      value: 
+      objectReference: {fileID: 991739859}
+    - target: {fileID: -7156804735202247109, guid: e2e82f84aa85a0642acb4099e8db1831, type: 3}
+      propertyPath: weaponSlot
       value: 
       objectReference: {fileID: 991739859}
     - target: {fileID: 5673631085022501721, guid: e2e82f84aa85a0642acb4099e8db1831, type: 3}
@@ -802,15 +810,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3190393732412895781, guid: 715488ed578d1e84194f376160d4f9a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.14
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3190393732412895781, guid: 715488ed578d1e84194f376160d4f9a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3190393732412895781, guid: 715488ed578d1e84194f376160d4f9a6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.91
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3190393732412895781, guid: 715488ed578d1e84194f376160d4f9a6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -855,7 +863,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2323451175218121906, guid: b026d00fc95b017489bae62c268bccf2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.618988
+      value: 7.58
       objectReference: {fileID: 0}
     - target: {fileID: 2323451175218121906, guid: b026d00fc95b017489bae62c268bccf2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -895,7 +903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4905878732099202509, guid: b026d00fc95b017489bae62c268bccf2, type: 3}
       propertyPath: m_Name
-      value: Cube
+      value: cute doggieee
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
