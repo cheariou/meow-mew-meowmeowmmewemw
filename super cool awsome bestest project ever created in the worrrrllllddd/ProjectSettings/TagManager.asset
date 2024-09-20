@@ -6,6 +6,7 @@ TagManager:
   tags:
   - health pick up tag
   - bullet
+  - weapon
   layers:
   - Default
   - TransparentFX

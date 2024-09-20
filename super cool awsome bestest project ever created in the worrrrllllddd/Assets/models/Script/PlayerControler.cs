@@ -66,7 +66,7 @@ public class PlayerControler : MonoBehaviour
         playerCam.transform.localRotation = Quaternion.AngleAxis(camRotation.y, Vector3.left);
         transform.localRotation = Quaternion.AngleAxis(camRotation.x, Vector3.up);
 
-        if (Input.GetMouseButtonDown(0) && canFire && currentClip > 0 && weaponID >= 0)
+        if (Input.GetMouseButton(0) && canFire && currentClip > 0 && weaponID >= 0)
         {
             GameObject s = Instantiate(shot, weaponSlot.position, weaponSlot.rotation);
             s.GetComponent<Rigidbody>().AddForce(playerCam.transform.forward * shotVel);
@@ -142,7 +142,7 @@ public class PlayerControler : MonoBehaviour
                 case "weapon1":
 
                     weaponID = 0;
-                    shotVel = 1000;
+                    shotVel = 10000;
                     fireMode = 0;
                     fireRate = 0.1f;
                     currentClip = 20;
